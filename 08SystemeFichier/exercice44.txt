@@ -1,0 +1,8 @@
+rwx signifie Read Write Execute
+Pour pouvoir donner l'accès en lecture écriture,
+chmod 760
+Mais si on veut qu'il ne puissent pas ouvrir les dossiers,
+il faut retirer les droits d'exécution.
+x droit de le traverser.
+r ls
+w écrire ou supprimer

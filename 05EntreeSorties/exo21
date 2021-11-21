@@ -1,0 +1,9 @@
+Différence entre man 2 open read close et man 3 fopen fprint
+
+man 2 contient les appels systèmes. Des fonctions qui sont non
+optimimsé car appel au noyau et font perdre la main aux autres
+programme
+
+man 3 contient la livrairie standard, des fonctions avec 
+des buffers/tampon, minimise l'interruption, les appels
+C'est plus facile, maintenable, opti, portable

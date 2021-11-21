@@ -1,0 +1,16 @@
+gedit&
+kill
+
+1) Le processus fils a été tué, et le bash père n'a rien fait.
+
+2) Quand le bash lance gedit en 1er plan, il attend qu'il termine.
+Si on on tue processus fils, avec kill dans un autre terminal,
+le bash père le remarque et nous dit :
+'''
+[1]+  Complété              gedit
+Complété
+'''
+
+terminal attaché ...
+
+3)

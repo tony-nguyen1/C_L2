@@ -1,0 +1,6 @@
+1) droit d'écriture sur le dossier
+
+2) droit d'écriture sur le fichier
+
+3) Oui c'est possible. Non, ce n'est pas grave car, il est
+propriétaire.

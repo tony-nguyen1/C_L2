@@ -1,0 +1,8 @@
+Oui, si ouverture avant le fork, les 2 process partagent le même fichier, donc écrit les uns derrières les autres.
+Si, après le fork, 2 ouverture, 2 instance, 2 têtes de lecture. Le dernier qui écrit a raison.
+
+
+stat
+lien symbolique ou lien dur
+
+lstat info sur le lien
